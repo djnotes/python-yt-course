@@ -56,3 +56,38 @@ myset.pop()
 
 print(f'Set after removing items: {myset}')
 
+my_tuple = 1,2.0, 'John', ['a','b','c']
+
+print(f'This is my tuple: {my_tuple}')
+
+for i in my_tuple:
+    print(f'Tuple Member: {i}')
+
+
+dict1 = {'a' : 1, 
+'b' : 10, 
+'c' : {'x' : 1000}
+}
+
+# dict2 = {
+#     'info' : '/app/log/info.log',
+#     'error' : '/app/log/error.log',    
+#     'debug' : '/app/log/debug.log',
+# }
+
+dict2 = dict(
+    info =  '/app/log/info.log',
+    error = '/app/log/error.log',    
+    debug = '/app/log/debug.log',
+)
+
+print(f'Dictionary1: {dict1} \n Dictionary 2: {dict2}')
+
+print(f"Error log file (using get()): {dict2.get('error')}")
+
+print(f"Error log file (using brackets): {dict2['error']}")
+
+print(f'Operating on the log files dictionary: ')
+
+for key,value in dict2.items():
+    print(f'Log file {key}: {value}')
