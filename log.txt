@@ -1,0 +1,15 @@
+ERROR:root:This is a message
+ERROR:root:This is a message
+ERROR:__main__:This is a message
+ERROR:root:This is a message
+ERROR:__main__:This is a message
+WARNING:__main__:This is a warning
+ERROR:root:This is a message
+ERROR:__main__:This is a message
+WARNING:__main__:This is a warning
+ERROR:root:This is a message
+ERROR:__main__:This is a message
+WARNING:__main__:This is a warning
+ERROR:__main__.error:This is an error sent to custom logger
+INFO:__main__.info:This is an info log sent to custom logger
+WARNING:__main__.warn:This is a warning sent to custom logger
